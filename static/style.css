@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin: 25px auto;
+}
+
+#navbar {
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    padding: 0px 54px;
+    display: flex;
+}
+
+#navbar li a:hover{
+    color: rgb(49, 2, 49);
+}
+
+#navbar li{
+    list-style: none;
+    padding-right: 50px;
+}
+
+#navbar ul{
+    width: 40%;
+    display: flex;
+    padding-top: 10px;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 14px;
+}
+
+#logo img{
+    height: 32px;
+}
+
+#navbar li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-size: 23px;
+    padding-bottom: 12px;
+}
+
+#introsection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+    height: 725px;
+    background: center / cover no-repeat url("/static/bg.jpg");
+    font-size: 32px;
+    background-color: #1c1e2d;
+}
+
+div#first {
+    margin-left: 271px;
+    margin-bottom: 565px;
+}
+
+div#second {
+    margin-left: 271px;
+    margin-top: 25px;
+}
+
+.introclass{
+    width: 80%;
+}
+
+#below{
+    background-color: white;
+}
+
+#fourth {
+    padding-right: 460px;
+}
+
+#fifth{
+    padding-right: 530px;
+}
+
+#memberssection{
+    height: 150px;
+}
+
+#footer, #looter{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    background-color: #1c1e2d;
+    color: white;
+}
+
+#membersection h2{
+    height: 85px; 
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+#membersection h2{
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: #1c1e2d;
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 20px;
+    height: 209px;
+    background-color: white;
+}
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 18px;
+    padding-bottom: 11px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+
+.card-img img{
+    height: inherit; 
+}
+
+.card-content{
+    padding: 0 10px;
+}
+
+.card-content p{
+    font-size: 17px;
+    font-family: cursive;
+}
+
+.container {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid #1c1e2d;
+    margin-left: 365px;
+    padding: 50px;
+    margin-bottom: 400px;
+    margin-top: 25px;
+}
+
+.container li a{
+    text-decoration: none;
+}
+
+#myurl li{
+    display: none;
+    font-size: 20px;
+}
+
+#myurl li a {
+    color: black;
+    font-size: 15px;
+    margin-left: 940px;
+    text-decoration: none;
+}
+
+#mysearchinput {
+    margin-top: 12px;
+    font-size: 20px;
+    border: 2px solid black;
+    width: 350px;
+    margin-left: 214px;
+    height: 35px;
+}
+
+.all{
+    display: flex;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 20px;
+    color: black;
+    font-weight: 550;
+    line-height: 3;
+}
