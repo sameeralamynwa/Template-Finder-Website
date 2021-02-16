@@ -1,0 +1,14 @@
+extends base.pug
+block scripts 
+    script(src='/static/index.js')
+block style 
+    style
+        include ../static/style.css
+        include ../static/explorestyle.css
+block content
+    h1  Explore
+    .container 
+        ol
+            li #[a(href = '/explore/minimumandmaximumspanningtree') Minimum And Maximum Spanning Tree]
+            br
+            li #[a(href = '/explore/dijkstraalgorithmwithmultipleedges') Dijkstra Algorithm With Multiple Edges]

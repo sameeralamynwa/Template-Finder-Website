@@ -1,0 +1,19 @@
+extends base.pug
+block scripts 
+    script(src='/static/index.js')
+block style 
+    style
+        include ../static/style.css
+        include ../static/aboutstyle.css
+block content
+    div.wholeabout
+        h1  About 
+        div.container
+            p   This website is founded by <i> <strong>Sameer Alam</strong> </i>, a sophomore from Thapar University with an intent to cumulate quite routinely used templates in competitive programming with exhaustive comments. This website furthermore provides application and follow-up problems for each of the habitually used algorithms and data structures.
+        div.connect 
+            h2   Connect :
+            a(href='https://www.linkedin.com/in/sameer-alam-5942a41a2/')
+                img(id='linkedin', src='/static/linkedin.ico')
+            a(href='https://codeforces.com/profile/sameeralamynwa')
+                img(id='codeforces', src='/static/codeforces.png')
+        
