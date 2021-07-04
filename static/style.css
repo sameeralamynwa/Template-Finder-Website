@@ -12,7 +12,7 @@ h1{
     margin: 25px auto;
 }
 
-#navbar {
+#navbar{
     background-color: rgb(255, 255, 255);
     height: 50px;
     padding: 0px 54px;
@@ -65,12 +65,12 @@ h1{
     background-color: #1c1e2d;
 }
 
-div#first {
+div#first{
     margin-left: 271px;
     margin-bottom: 565px;
 }
 
-div#second {
+div#second{
     margin-left: 271px;
     margin-top: 25px;
 }
@@ -83,7 +83,7 @@ div#second {
     background-color: white;
 }
 
-#fourth {
+#fourth{
     padding-right: 460px;
 }
 
@@ -158,7 +158,7 @@ div#second {
     font-family: cursive;
 }
 
-.container {
+.container{
     width: 50%;
     display: flex;
     flex-direction: row;
@@ -179,14 +179,14 @@ div#second {
     font-size: 20px;
 }
 
-#myurl li a {
+#myurl li a{
     color: black;
     font-size: 15px;
     margin-left: 940px;
     text-decoration: none;
 }
 
-#mysearchinput {
+#mysearchinput{
     margin-top: 12px;
     font-size: 20px;
     border: 2px solid black;
